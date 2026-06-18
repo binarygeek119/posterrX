@@ -46,7 +46,7 @@ cd ~
 sudo rm -R posterr-scripts
 ```
 ## Troubleshooting
-- Limited support for PosterX is available on the maintainer [Discord](https://discord.gg/vftKQvpT) (original Posterr community: [Discord](https://discord.gg/TcnEkMEf9J)).
+- Limited support for PosterX is available on the maintainer [Discord](https://discord.gg/AEhVjqX4Af) (original Posterr community: [Discord](https://discord.gg/TcnEkMEf9J)).
 - Run the following command to check the status of the service.
 ```
 sudo systemctl status posterr-watcher.service

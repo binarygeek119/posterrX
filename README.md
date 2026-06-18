@@ -3,24 +3,24 @@
 
 > **About this repository**  
 > **PosterX** is an **AI-assisted fork** of [Posterr](https://github.com/petersem/posterr) by **binarygeek119**. Upstream owns the original design and core product; this repo adds the features in **New in this fork** below.  
-> **Source:** [github.com/binarygeek119/posterr](https://github.com/binarygeek119/posterr) · **Docker image:** [`binarygeek119/posterrx`](https://hub.docker.com/r/binarygeek119/posterrx) (`:latest` / `:testing` from CI)
+> **Source:** [github.com/binarygeek119/posterrX](https://github.com/binarygeek119/posterrX) · **Docker image:** [`binarygeek119/posterrx`](https://hub.docker.com/r/binarygeek119/posterrx) (`:latest` / `:testing` from CI)
 > **Sister project:** [binarygeek119/ubuntudisplayos](https://github.com/binarygeek119/ubuntudisplayos) for Ubuntu-based multi-display kiosk hosts that pair well with PosterX.
 
-![GitHub stars](https://img.shields.io/github/stars/binarygeek119/posterr?style=flat)
-![Fork version](https://img.shields.io/github/package-json/v/binarygeek119/posterr?label=version&logoColor=blue)
-![Last commit](https://img.shields.io/github/last-commit/binarygeek119/posterr)
-![Docker Pulls](https://img.shields.io/docker/pulls/binarygeek119/posterr)
-![Docker image size](https://img.shields.io/docker/image-size/binarygeek119/posterr/latest?logo=docker)
+![GitHub stars](https://img.shields.io/github/stars/binarygeek119/posterrX?style=flat)
+![Fork version](https://img.shields.io/github/package-json/v/binarygeek119/posterrX?label=version&logoColor=blue)
+![Last commit](https://img.shields.io/github/last-commit/binarygeek119/posterrX)
+![Docker Pulls](https://img.shields.io/docker/pulls/binarygeek119/posterrx)
+![Docker image size](https://img.shields.io/docker/image-size/binarygeek119/posterrx/latest?logo=docker)
 ![Platforms](https://img.shields.io/badge/platform-docker-blue)
 [![Upstream wiki](https://img.shields.io/badge/upstream-wiki-informational?logo=github)](https://github.com/petersem/posterr/wiki/Posterr-Configuration)
 
 ![Slides](https://github.com/petersem/posterr/blob/master/doco/posterr.jpg?raw=true)
 ![Awtrix](https://github.com/petersem/posterr/blob/master/doco/awtrix.gif?raw=true)
 
-**PosterX maintainer Discord:** [https://discord.gg/vftKQvpT](https://discord.gg/vftKQvpT) — updates and limited support for this fork.  
+**PosterX maintainer Discord:** [https://discord.gg/AEhVjqX4Af](https://discord.gg/AEhVjqX4Af) — updates and limited support for this fork.  
 Original Posterr community Discord: [https://discord.gg/TcnEkMEf9J](https://discord.gg/TcnEkMEf9J).  
 Please do not ask the original Posterr developer for support when using PosterX.  
-For fork support, use GitHub: [https://github.com/binarygeek119/posterr](https://github.com/binarygeek119/posterr).  
+For fork support, use GitHub: [https://github.com/binarygeek119/posterrX](https://github.com/binarygeek119/posterrX).  
 **Default settings password:** `raidisnotabackup`
 
 ---
@@ -54,7 +54,7 @@ These are additions on top of upstream behaviour (current fork **`package.json`*
 | Area | What changed |
 |------|----------------|
 | **Release notice** | After an upgrade, a **red banner** on the **home poster view**, **`/now-showing`**, and **settings** pages reminds you that new features shipped. It clears after you open **Settings** and click **Acknowledge there are new features**. Your choice is stored in `settings.json` (`newFeaturesAcknowledgedVersion`); the banner comes back when the app **version string** in `package.json` changes again (any **X.Y.Z** bump). |
-| **Settings → About** | Identifies this app as **PosterX** (a **binarygeek119** fork of Posterr), **purely AI-modified**, with a link to **[github.com/binarygeek119/posterr](https://github.com/binarygeek119/posterr)**. Original author credits and upstream links stay in the same tab. |
+| **Settings → About** | Identifies this app as **PosterX** (a **binarygeek119** fork of Posterr), **purely AI-modified**, with a link to **[github.com/binarygeek119/posterrX](https://github.com/binarygeek119/posterrX)**. Original author credits and upstream links stay in the same tab. |
 | **Settings navigation** | **Sync**, **Cache**, **Now Showing**, and **TMDB API** pages use the **same sidebar and mobile icons** as each other, including **Debug** and **About**, so entries no longer disappear when you switch pages. |
 | **Ads (main deck + `/settings/ads`)** | When **Enabled**, ad slides rotate with the home posters (**every *n* posters**, optional **only show ads**). Upload images, prices, and optional per-slide backgrounds; metadata in **`config/ads.db`**, files under **`config/ads`**. |
 | **Dedicated `/ads` view** | Full-screen ad slideshow: **seconds per ad** advances each slide; **seconds on full `/ads` page before returning home** is separate (`0` = manual leave; otherwise **30–86400** seconds then redirect to **`/`**). Optional backdrop from **`config/ads-view`** (`**/custom/ads-view/**`). |
@@ -239,10 +239,10 @@ Should you encounter a problem, the solution may be listed [HERE](https://github
 
 ---
 ## Support
- - **PosterX maintainer Discord:** [https://discord.gg/vftKQvpT](https://discord.gg/vftKQvpT) (this fork).
+ - **PosterX maintainer Discord:** [https://discord.gg/AEhVjqX4Af](https://discord.gg/AEhVjqX4Af) (this fork).
  - Original Posterr community: [https://discord.gg/TcnEkMEf9J](https://discord.gg/TcnEkMEf9J).
  - Do not ask the original Posterr developer for support when using PosterX.
- - For fork support, use GitHub: [https://github.com/binarygeek119/posterr](https://github.com/binarygeek119/posterr).
+ - For fork support, use GitHub: [https://github.com/binarygeek119/posterrX](https://github.com/binarygeek119/posterrX).
 
 ---
 ### Support my efforts and continued development 
